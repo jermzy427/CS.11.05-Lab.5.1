@@ -216,7 +216,7 @@ public class Main {
         double maximum = 99.99;
         String[] tempcountries = new String[countries.length];
         for(int i = 0; i<percentagesShareInPoverty.length;i++){
-            if (percentagesShareInPoverty[i] == 99.99){
+            if (percentagesShareInPoverty[i] >= maximum){
                 poverty = percentagesShareInPoverty[i];
                 maximum = percentagesShareInPoverty[i];
                 numhighpoverty++;
